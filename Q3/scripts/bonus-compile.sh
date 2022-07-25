@@ -4,11 +4,19 @@ cd contracts/bonus
 
 mkdir SystemOfEquations
 
-if [ -f ./powersOfTau28_hez_final_10.ptau ]; then
-    echo "powersOfTau28_hez_final_10.ptau already exists. Skipping."
+# if [ -f ./powersOfTau28_hez_final_10.ptau ]; then
+#     echo "powersOfTau28_hez_final_10.ptau already exists. Skipping."
+# else
+#     echo 'Downloading powersOfTau28_hez_final_10.ptau'
+#     wget https://hermez.s3-eu-west-1.amazonaws.com/powersOfTau28_hez_final_10.ptau
+# fi
+
+# ./zku/week1/Q3/projects/zkPuzzles/scripts
+if [ -f ./powersOfTau28_hez_final_20.ptau ]; then
+    echo "powersOfTau28_hez_final_20.ptau already exists. Skipping."
 else
-    echo 'Downloading powersOfTau28_hez_final_10.ptau'
-    wget https://hermez.s3-eu-west-1.amazonaws.com/powersOfTau28_hez_final_10.ptau
+    echo 'Downloading powersOfTau28_hez_final_20.ptau'
+    wget https://hermez.s3-eu-west-1.amazonaws.com/powersOfTau28_hez_final_20.ptau
 fi
 
 echo "Compiling SystemOfEquations.circom..."
