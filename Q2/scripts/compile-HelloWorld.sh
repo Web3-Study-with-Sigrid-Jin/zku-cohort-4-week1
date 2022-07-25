@@ -15,7 +15,7 @@ echo "Compiling HelloWorld.circom..."
 
 # compile circuit
 
-circom HelloWorld.circom --r1cs --wasm --sym -o HelloWorld
+circom ../contracts/circuits/HelloWorld.circom --r1cs --wasm --sym -o HelloWorld
 snarkjs r1cs info HelloWorld/HelloWorld.r1cs
 
 # Start a new zkey and make a contribution
