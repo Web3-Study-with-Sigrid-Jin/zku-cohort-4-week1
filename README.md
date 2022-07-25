@@ -211,7 +211,7 @@ cd ../..
 
 * using regex to update the solidity version declaration and differentiate each contract verifiers.
 
-![image-20220725155839813](/Users/sigridjin.eth/Library/Application Support/typora-user-images/image-20220725155839813.png)
+![image-20220725163637023](https://user-images.githubusercontent.com/41055141/180749050-f1538e36-9d93-47c1-b83d-5eac9b88f85a.png)
 
 ```javascript
 const { expect, assert } = require('chai')
@@ -395,7 +395,7 @@ describe("Multiplier3 with PLONK", function () {
 });
 ```
 
-![image-20220725163637023](/Users/sigridjin.eth/Library/Application Support/typora-user-images/image-20220725163637023.png)
+![image-20220725155839813](https://user-images.githubusercontent.com/41055141/180749059-5167ed30-c958-465e-ac60-972156f9095d.png)
 
 1. 
 
@@ -536,7 +536,7 @@ component puzzzleRange[9][9] ;
 
 #### You can run `npm run test:fullProof` while inside the `zkPuzzles` directory to test your modified circuit. You are expected to encounter an error. Record the error, resolve it by modifying `project/zkPuzzles/scripts/compile-circuits.sh`, and explain why it has occurred and what you did to solve the error.
 
-![image-20220725175302018](/Users/sigridjin.eth/Library/Application Support/typora-user-images/image-20220725175302018.png)
+![image-20220725175302018](https://user-images.githubusercontent.com/41055141/180749085-8cd3cf22-d566-436f-b230-c8468173b350.png)
 
 The error was snarkJS: circuit too big for this power of tau ceremony. `97588 > 2^16`.
 
